@@ -37,9 +37,5 @@ Since we would like to train a classifier to predict the reputation score/label 
 In the initial approach, we choose to only include the “textual description” data to fit the classifier. And we split the given data to train/test by 80/20. The accuracy rate we get by using *naive bayes* model **MultinomialNB** is 0.384, which is almost similar to the accuracy of random guess among 3 distinct labels. This probably because the naive bayes model basically considers the selected features as independent with each other, which is not true in our case. We then implemented **SGD Classifier** to further optimized our model and get 0.524 instead of using **Naive Bayes model**. For this SGD classifier, we included hinge loss function and penalty L2, and the maximum iteration number is set as 5. In the end, we used GridsearchCV to turn the hyper-parameters. The best score we get is ​0.57.
 
 
-<<<<<<< HEAD
 ##Reference:
 [1] Bee-Chung Chen, Jian Guo, Belle Tseng and Jie Yang.User Reputation in a Comment Rating Environment.​17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining,2011.
-=======
-## Reference:
-[1] Bee-Chung Chen, Jian Guo, Belle Tseng and Jie Yang.User Reputation in a Comment Rating Environment.​17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining,2011.# aaa
