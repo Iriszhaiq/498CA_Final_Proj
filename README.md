@@ -43,4 +43,3 @@ In the initial approach, we choose to only include the “textual description”
 =======
 ## Reference:
 [1] Bee-Chung Chen, Jian Guo, Belle Tseng and Jie Yang.User Reputation in a Comment Rating Environment.​17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining,2011.# aaa
->>>>>>> 334fe98947fed29a5d2b5aa094741e66b6eebada
